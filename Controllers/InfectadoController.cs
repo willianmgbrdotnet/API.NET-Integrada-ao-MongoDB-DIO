@@ -1,3 +1,4 @@
+using System;
 using Api.Data.Collections;
 using Api.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -42,6 +43,14 @@ namespace Api.Controllers
             _infectadosCollection.UpdateOne(Builders<Infectado>.Filter.Where(_ => _.DataNascimento == dto.DataNascimento), Builders<Infectado>.Update.Set("sexo", dto.Sexo));
             
             return Ok("Atualizado com sucesso");
+        }
+
+        [HttpDelete("{dataNasc}")]
+        public ActionResult DeletarInfectado(DateTime DataNasc)
+        {
+            _infectadosCollection.DeleteOne(Builders<Infectado>.Filter.Where(_ => _.DataNascimento == DataNasc));
+            
+            return Ok("Removido");
         }
     }
 }
