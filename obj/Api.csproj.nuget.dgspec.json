@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ApiNetMongo\\Api\\Api.csproj": {}
+    "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\Api.csproj": {}
   },
   "projects": {
-    "C:\\ApiNetMongo\\Api\\Api.csproj": {
+    "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ApiNetMongo\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\ApiNetMongo\\Api\\Api.csproj",
+        "projectPath": "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\Api.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\ApiNetMongo\\Api\\obj\\",
+        "outputPath": "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[2.19.0, )"
             }
           },
           "imports": [

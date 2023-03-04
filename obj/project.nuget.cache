@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AF5bbuOYXqUks1GnWOc+J6JNoHkjv6aDcvpirnoQDUfAL9GMxOuwpSH/HyNLWnKpQ3waY27PperJL+UmnxJ5hQ==",
+  "dgSpecHash": "oG6T/EVaErrQgVf4E+QnW4ka1Qls5kVat9/LeGVUU1llrLBMdbjVnzfw40tkmkatEq0caxpZvAqAAZQtl7FAow==",
   "success": true,
-  "projectFilePath": "C:\\ApiNetMongo\\Api\\Api.csproj",
+  "projectFilePath": "C:\\ApiNetMongo\\API.NET-Integrada-ao-MongoDB-DIO\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\willi\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
